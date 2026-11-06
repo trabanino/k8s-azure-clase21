@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: api
-          image: ghcr.io/REEMPLAZAR_USUARIO/REEMPLAZAR_REPOSITORIO:sha-REEMPLAZAR_COMMIT
+          image: ghcr.io/trabanino/k8s-azure-clase21:sha-9b306d42c5915851f883437479933bb0a949d433
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
